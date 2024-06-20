@@ -1,6 +1,6 @@
 package projeto_final_bloco_01;
 
-import model.Produto;
+import model.*;
 
 import java.util.Scanner;
 
@@ -8,10 +8,10 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-	Produto produto1 = new Produto(132, "Camiseta do Corinthians", "preto", 'G', 300f);
-	produto1.visualizar();
-		
 	Scanner scanner = new Scanner(System.in);
+	
+	Camisas camisa1 = new Camisas(123, "Camiseta do Corinthians", "G", "Preto", 300f);
+	camisa1.visualizar();
 	
 	int opcao;
 	
