@@ -29,6 +29,27 @@ public class Main {
 				Digite a sua opção:
 				""");
 		opcao = scanner.nextInt();
+		
+		switch(opcao) {
+		case 1:
+			System.out.println("****** CADASTRAR PRODUTO ******");
+			break;
+		case 2:
+			System.out.println("****** LISTAR TODOS OS PRODUTOS ******");
+			break;
+		case 3:
+			System.out.println("****** ATUALIZAR UM PRODUTO ******");
+			break;
+		case 4:
+			System.out.println("****** APAGAR UM PRODUTO ******");
+			break;
+		case 5:
+			System.out.println("SAINDO...");
+			return;
+			default:
+				System.out.println("Por favor digite uma das opções acima!");
+				break;
+		}
 	}
 	
 
