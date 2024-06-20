@@ -16,6 +16,9 @@ public class Main {
 	Tenis tenis1 = new Tenis(312, "Nike Air Jordan", "Branco e Vermelho", 42, 1000f);
 	tenis1.visualizar();
 	
+	Calcas calca1 = new Calcas(532, "Calça Jeans", "Azul Marinho", 200f, 42);
+	calca1.visualizar();
+	
 	int opcao;
 	
 	while(true) {
