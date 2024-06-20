@@ -1,5 +1,7 @@
 package projeto_final_bloco_01;
 
+import model.Produto;
+
 import java.util.Scanner;
 
 public class Main {
