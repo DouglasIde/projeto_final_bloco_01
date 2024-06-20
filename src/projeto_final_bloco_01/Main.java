@@ -8,6 +8,9 @@ public class Main {
 
 	public static void main(String[] args) {
 		
+	Produto produto1 = new Produto(132, "Camiseta do Corinthians", "preto", 'G', 300f);
+	produto1.visualizar();
+		
 	Scanner scanner = new Scanner(System.in);
 	
 	int opcao;
