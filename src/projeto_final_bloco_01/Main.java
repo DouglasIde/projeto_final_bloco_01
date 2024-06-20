@@ -13,6 +13,9 @@ public class Main {
 	Camisas camisa1 = new Camisas(123, "Camiseta do Corinthians", "G", "Preto", 300f);
 	camisa1.visualizar();
 	
+	Tenis tenis1 = new Tenis(312, "Nike Air Jordan", "Branco e Vermelho", 42, 1000f);
+	tenis1.visualizar();
+	
 	int opcao;
 	
 	while(true) {
